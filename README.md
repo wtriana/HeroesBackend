@@ -16,8 +16,14 @@ los Archivos insert_* son los sql con data de prueba para la prueba de los servi
 
 configuración de heroes backend
 -------------------------------
-La aplicacion tiene incorporado un servidor tomcat que responde a la url "http://localhost:8081/", esta configuración se encuentra en el 
-archivo src/main/resources/application.properties donde se encuentran los datos de configuración de la Base de datos y el puerto por el cual responden los datos
+los recursos de La aplicacion fueron inicialmente creado desde (https://spring.io/projects/spring-boot)  y la opción Spring Web Services
+por lo tanto tiene incorporado un servidor tomcat que responde a la url "http://localhost:8081/", esta configuración se encuentra en el 
+archivo src/main/resources/application.properties, donde se encuentran los datos de configuración de la Base de datos y el puerto por el cual responden los datos;
+también se agregaron las depencias:
+
+* Spring web
+* Spring Data Jpa 
+* MySQL Driver
 
 dentro del archivo pom.xml se cuentran las dependecias del proyecto por favor descargar y actulizarlas 
 
