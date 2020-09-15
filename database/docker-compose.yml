@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+        db:
+                image: mysql:latest
+                restart: always
+                environment:
+                        MYSQL_DATABASE: 'heroes'                  
+                        MYSQL_USER: 'wilmer'
+                        MYSQL_PASSWORD: 'wilmertriana'
+                        MYSQL_ROOT_PASSWORD: 'mysqlwilmer'
+                ports:
+                        - '3308:3306'
+                expose:
+                        - '3306'
+                volumes:
+                        - C:\docker-db-mysql:/var/lib/mysql
