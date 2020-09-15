@@ -17,15 +17,9 @@ los Archivos insert_* son los sql con data de prueba para la prueba de los servi
 
 configuración de heroes backend
 -------------------------------
-<<<<<<< HEAD
-los recursos de La aplicacion fueron inicialmente creado desde (https://spring.io/projects/spring-boot)  y la opción Spring Web Services
-por lo tanto tiene incorporado un servidor tomcat que responde a la url "http://localhost:8081/", esta configuración se encuentra en el 
-archivo src/main/resources/application.properties, donde se encuentran los datos de configuración de la Base de datos y el puerto por el cual responden los datos;
-=======
 los recursos de la aplicación fueron inicialmente creado desde (https://spring.io/projects/spring-boot)  y la opción Spring Web Services,
 por lo tanto tiene incorporado un servidor Tomcat que responde a la url "http://localhost:8081/", esta configuración se encuentra en el 
 archivo src/main/resources/application.properties, donde se encuentran los datos de configuración de la Base de datos y el puerto por el cual responden los servicios;
->>>>>>> ee131c0... se agrega mas contenido al archivo readme
 también se agregaron las depencias:
 
 * Spring web
